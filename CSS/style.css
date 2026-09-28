@@ -16,6 +16,7 @@ body {
 
 #menu{
     color: #1f4e79;
+    font-size: 23px
 }
 
 td{
@@ -36,4 +37,5 @@ td{
 a {
  color: #1f4e79;
  font-weight : bold;
+ font-size: 23px;
 }
