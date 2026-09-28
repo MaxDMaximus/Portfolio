@@ -1,20 +1,31 @@
 h1 {
-    color: #618985;
+    color: #0000ff;
+    font-size: 26px;
+    font-family: Verdana, sans-serif;
 }
 h2 {
-    color: #96bbbb;
+    color: #44a9a9;
 }
 
 body {
     font-size: 16px;
-    color: #414535;
+    color: #000000;
     font-family: Times, Arial;
 
+}
+
+td{
+    background-color: #f4f6f8;
 }
 
 .td1  {
     background-color: #c19875;
 }
- .td2  {
+.td2  {
     background-color: #f2e3bc;
+}
+
+.Annee {
+    font-size: 26px;
+
 }
