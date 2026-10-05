@@ -40,3 +40,14 @@ a {
  font-weight : bold;
  font-size: 23px;
 }
+
+#deroulant{
+     border-spacing : 150px 10px;
+}
+
+body {
+  background-image: url("images/Background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
