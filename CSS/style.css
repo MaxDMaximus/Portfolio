@@ -1,16 +1,20 @@
 h1 {
-    color: #0000ff;
+    color: #97D8B2;
     font-size: 26px;
     font-family: Verdana, sans-serif;
 }
 h2 {
-    color: #44a9a9;
+    color: #A5CBC3;
 }
 
 body {
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
     font-family: Times, Arial;
+    background-image: url("Background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -18,17 +22,19 @@ body {
     color: #1f4e79;
     font-weight : bold;
     font-size : 23px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 td{
     background-color: #f4f6f8;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .td1  {
-    background-color: #c19875;
+    background-color: rgba(0, 0, 0, 0);
 }
 .td2  {
-    background-color: #f2e3bc;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .Annee {
@@ -36,18 +42,12 @@ td{
 
 }
 a {
- color: #1f4e79;
- font-weight : bold;
- font-size: 23px;
+    color: #a2cbf1;
+    font-weight : bold;
+    font-size: 23px;
+    
 }
 
 #deroulant{
      border-spacing : 150px 10px;
-}
-
-body {
-  background-image: url("Background.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
