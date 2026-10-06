@@ -10,44 +10,55 @@ h2 {
 body {
     font-size: 16px;
     color: #ffffff;
-    font-family: Times, Arial;
-    background-image: url("Background.webp");
+    font-family: Times, Arial; /*police à utiliser*/
+    background-image: url("Background.webp"); /*mettre l'image en background*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: 0; /*mettre la marge à 0, tout coller à gauche*/
 
 }
 
+nav{    
+     background-image: url("baniere.webp"); /*mettre l'image en background*/
+     position: fixed;
+     display: flex;
+}
+
 #menu{
-    color: #1f4e79;
-    font-weight : bold;
-    font-size : 23px;
-    background-color: rgba(0, 0, 0, 0);
+    font-size : 25px;
+    gap: 20px;
+    
 }
 
 td{
     background-color: #f4f6f8;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0); /*rendre transparent le fond*/
 }
 
 .td1  {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0); /*rendre transparent le fond*/
 }
+
 .td2  {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0); /*rendre transparent le fond*/
 }
 
 .Annee {
     font-size: 26px;
 
 }
+
 a {
-    color: #a2cbf1;
+    color: #fc0148;
     font-weight : bold;
     font-size: 23px;
     
 }
 
-#deroulant{
-     border-spacing : 150px 10px;
+.imgcv{
+    display: block; /*passer l'image en block pour que margin fonctionne*/
+    margin-left: auto; 
+                        /*centrer automatiquement*/
+    margin-right: auto;
 }
