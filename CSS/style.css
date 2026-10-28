@@ -20,15 +20,23 @@ body {
 }
 
 nav{    
-     background-image: url("baniere.webp"); /*mettre l'image en background*/
-     position: fixed;
-     display: flex;
+    background-image: url("baniere.webp");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 #menu{
     font-size : 25px;
-    gap: 20px;
-    
+    display: flex;
+    list-style: none;
 }
 
 td{
@@ -53,6 +61,7 @@ a {
     color: #fc0148;
     font-weight : bold;
     font-size: 23px;
+    text-decoration: none;
     
 }
 
